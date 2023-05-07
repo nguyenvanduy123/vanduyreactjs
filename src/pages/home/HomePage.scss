@@ -1,0 +1,9 @@
+.HomePage {
+    display: flex;
+    box-sizing: border-box;
+    .ContentContain {
+        width: calc(100% - 228px);
+        box-sizing: border-box;
+
+    }
+}

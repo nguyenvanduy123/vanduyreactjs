@@ -1,0 +1,132 @@
+
+.editncc {
+    width: 100%;
+    
+    &-content {
+        height: 371px;
+        background-color: #fff;
+        margin: 10px;
+        box-sizing: border-box;
+        padding: 20px;
+        &_title {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.012em;
+            color: #333333;
+            box-sizing: border-box;
+            display: block;
+            margin-bottom: 15px;
+        }
+        &_contain {
+            box-sizing: border-box;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        &_item {
+            display: flex;
+            margin-bottom: 15px;
+            margin-right: 20px;
+            flex-direction: column;
+            width: 346px;
+            ._name {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.01em;
+                color: #333333;
+                display: block;
+                margin-bottom: 10px;
+            }
+            ._context {
+                outline: none;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.01em;
+                color: #8b8b8b;
+                height: 32px;
+                border: 1px solid #ACACAC;
+                border-radius: 3px;
+                box-sizing: border-box;
+                padding: 6px 10px;
+                &::placeholder {
+                color: #E3E3E3;
+                }
+            } 
+            .noted {
+                color: #FF3434;
+                font-size: 14px;
+            }   
+        }
+    }
+    &-bottom {
+        position: absolute;
+        bottom: 0;
+        width: calc(100% - 228px);
+        height: 40px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px 0 20px;
+        box-sizing: border-box;
+        &_back {
+            display: flex;
+            cursor: pointer;
+            img {
+                transform: rotate(90deg);
+                margin-right: 5px;
+            }
+            span {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                letter-spacing: 0.01em;
+                color: #707070;
+            }
+        }
+        &_btn {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.012em;
+
+        }
+        &_btndel {
+            border: none;
+            outline: none;
+            background:#fff;
+            width: 90px;
+            height: 32px;
+            border: 1px solid #FF3434;
+            border-radius: 3px;
+            color: #FF3434;
+            margin-right: 15px;
+            cursor: pointer;
+            &:hover {
+                background: #FF3434;
+                color: #fff;
+            }
+        }
+        &_btnedit {
+            border: none;
+            outline: none;
+            width: 90px;
+            height: 32px;
+            background: #138300;
+            border-radius: 3px;
+            color: #fff;
+            cursor: pointer;
+            &:hover {
+                background: #19a500;
+            }
+        }
+    }
+}

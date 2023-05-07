@@ -1,0 +1,145 @@
+
+.Filter {
+    padding: 20px;
+    margin: 10px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .inputFilter {
+        display: flex;
+        .search {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            img {
+                position: absolute;
+                left: 10px;
+            }
+            input {
+                border: 1px solid #ACACAC;
+                border-radius: 3px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 4px 10px 4px 40px;
+                width: 312px;
+                height: 32px;
+                box-sizing: border-box;
+                outline: none;
+                &::placeholder {
+                    color: #E3E3E3;
+                }
+            }
+        }
+        // .selectbox {
+        //     padding: 4px 10px;
+        //     gap: 4px;
+        //     width: 208px;
+        //     height: 32px;
+        //     border: 1px solid #ACACAC;
+        //     border-radius: 3px;
+        //     outline: none;
+        //     box-sizing: border-box;
+        //     position: relative;
+        //     margin-right: 10px;
+        //     &:last-child {
+        //         margin-right: 0;
+        //     }
+        //     .dropdown {
+        //         display: flex;
+        //         align-items: center;
+        //         justify-content: space-between;
+        //         cursor: pointer;
+        //         span {
+        //             color: #b1b1b1;
+        //             cursor: pointer;
+        //         }
+        //     }
+            
+        //     .dropdown-content {
+        //         opacity: 0;
+        //         position: absolute;
+        //         z-index: 1;
+        //         top: 30px;
+        //         width: 100%;
+        //         left: 0;
+        //         background-color: #fff;
+        //         box-shadow: 0px 0px 2px #a6a6a6;
+        //         border-radius: 6px;
+        //         transition: all 0.2s ease-in-out;
+        //         .item {
+        //             box-sizing: border-box;
+        //             padding: 10px;
+        //             border: 1px solid #ccc;
+        //             width: 100%;
+        //             cursor: pointer;
+        //             color: #7b7b7b;
+        //             &:hover {
+        //                 background-color: #e9e9e9;
+        //             }
+        //         }
+        //     }
+        // }
+    }
+    .btnFilter {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.012em;
+        .btnSetup {
+            width: 106px;
+            height: 32px;
+            box-sizing: border-box;
+            border: none;
+            background: #F2F2F2;
+            border-radius: 3px;
+            color: #707070;
+            cursor: pointer;
+            margin-right: 10px;
+            &:hover {
+                background: #dddddd;
+            }
+        }
+        .btnSearch {
+            border: none;
+            width: 90px;
+            height: 32px;
+            background: #138300;
+            border-radius: 3px;
+            color: #FFFFFF;
+            cursor: pointer;
+            margin-right: 10px;
+            &:hover {
+                background: #1aa601;
+            }
+        }
+        .iconloccaidat{
+            padding: 6px;
+            background: #D2F2CC;
+            border-radius: 3px;
+            margin-right: 10px;
+            cursor: pointer;
+            &:hover {
+                background: #b8dab2;
+            }
+        }
+        .iconxemchitiet {
+            padding: 6px;
+            background: #FFCD29;
+            border-radius: 3px;
+            cursor: pointer;
+            &:hover {
+                background: #fac61d;
+            }
+
+        }
+    }
+}
